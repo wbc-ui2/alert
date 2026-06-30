@@ -1,0 +1,31 @@
+{
+  "name": "@wbc-ui2/alert",
+  "version": "1.0.0-r01",
+  "description": "Floating debug/alert panel for the @wbc-ui2 ecosystem",
+  "main": "dist/alert2.umd.js",
+  "module": "dist/alert2.es.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "logo/"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "next"
+  },
+  "peerDependencies": {
+    "vue": "^2.7.16",
+    "vuetify": "^2.7.2",
+    "@wbc-ui2/core": "1.0.0-r01",
+    "@wbc-ui2/dataviewer": "1.0.0-r01"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbc-ui2/alert.git"
+  },
+  "homepage": "https://github.com/wbc-ui2/alert#readme",
+  "bugs": {
+    "url": "https://github.com/wbc-ui2/alert/issues"
+  }
+}
